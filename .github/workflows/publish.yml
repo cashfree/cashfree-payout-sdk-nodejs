@@ -22,7 +22,6 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.TOKEN_GITHUB }}
           
       - name: Get Latest Tag
         uses: actions-ecosystem/action-get-latest-tag@v1
